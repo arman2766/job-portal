@@ -1,0 +1,25 @@
+@import '././../../style/colors';
+
+.btn {
+    padding: 8px 18px;
+    min-height: 44px;
+    background: $primary-color;
+    color: $text-white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.5s ease-in-out;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.btn-primary {
+    background: $primary-color;
+}
+
+.btn-secondary {
+    background: $secondary-color;
+}
