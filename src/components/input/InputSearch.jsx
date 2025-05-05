@@ -1,9 +1,9 @@
 import React from 'react'
 import './InputSearch.scss'
 
-const InputSearch = () => {
+const InputSearch = ({ onChange }) => {
   return (
-   <input type="search" placeholder='what are you looking for ?'/>
+    <input type="search" placeholder='what are you looking for ?' onChange={onChange} />
   )
 }
 

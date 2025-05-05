@@ -1,6 +1,7 @@
 @import './../../style/colors';
 
-input[type="search"] {
+input[type="search"],
+select {
     width: 100%;
     padding-inline: 12px;
     min-height: 44px;
