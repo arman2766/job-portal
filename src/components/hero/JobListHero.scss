@@ -1,0 +1,13 @@
+@import './../../style/colors';
+
+.job-list-hero {
+    color: $black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 12px;
+    min-height: 250px;
+    padding: 32px 64px;
+    background: $primary-light-color;
+}

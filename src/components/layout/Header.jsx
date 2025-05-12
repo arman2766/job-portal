@@ -10,14 +10,14 @@ const navList = [{
 },
 {
   id: 2,
-  name: 'Frontend',
-  link: '/frontend'
+  name: 'Jobs',
+  link: '/job'
 },
 
 {
   id: 3,
-  name: 'Backend',
-  link: '/backend'
+  name: 'About Us',
+  link: '/about-us'
 }
 
 ];

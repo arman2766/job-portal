@@ -1,0 +1,40 @@
+@import './../../style/colors';
+
+.job-list-container {
+    display: flex;
+
+    .filter {
+        background: $white;
+        width: 20%;
+        min-height: 100vh;
+        padding: 32px 64px;
+
+        h3 {
+            color: $primary-color;
+        }
+    }
+
+    .Job-lists {
+        flex: 1;
+    }
+
+    .job-type-list {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
+        label input {
+
+            margin: 6px;
+        }
+    }
+}
+
+.job-list {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 24px;
+    padding: 32px 64px;
+    flex-wrap: wrap;
+}

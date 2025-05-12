@@ -1,13 +1,16 @@
-import React from 'react'
-import MainLayout from './components/layout/MainLayout'
-import Home from './pages/home/Home'
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom'; // ✅ Correct import
+import MainLayout from './components/layout/MainLayout';
+import AppRoutes from './routes/AppRoutes';
 
 const App = () => {
   return (
-  <MainLayout>
-  <Home/>
-  </MainLayout>
-  )
-}
+    <Router>
+      <MainLayout>
+        <AppRoutes />
+      </MainLayout>
+    </Router>
+  );
+};
 
-export default App
+export default App;

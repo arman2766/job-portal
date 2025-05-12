@@ -1,0 +1,66 @@
+@import './../../style/colors';
+
+.align-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.job-card {
+    background: linear-gradient(136deg, #0e55da99, #0e55da54, #e9cece82, rgb(255 112 66 / 38%));
+    width: 100%;
+    max-width: 350px;
+    min-width: 300px;
+    padding: 24px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 6px 8px 2px rgb(232 232 232 / 59%);
+    border: 2px solid #ffffff;
+
+
+    &__header {
+        @extend .align-center;
+
+        .post-date {
+            border: 1px solid $black;
+            border-radius: 4px;
+            padding: 6px;
+        }
+
+        h2 {
+            font-size: 21px;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    &__skill-sets {
+        font-size: 12px;
+        @extend .align-center;
+
+        span {
+            border: 1px solid $black;
+            border-radius: 4px;
+            padding: 6px;
+        }
+    }
+
+    &__location-exp {
+        @extend .align-center;
+
+        span {
+            @extend .align-center;
+        }
+    }
+
+    &__footer {
+        @extend .align-center;
+    }
+}
